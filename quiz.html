@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>Elizabeth Dallaston's Portfolio
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link href="quizstyle.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <main>
+    <header>
+        <nav class="topnav" id="portfolioTopnav">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#accomplishments">Accomplishments</a>
+            <a href="#contact">Contact</a>
+            <a href="javascript:void(0);" class="icon" @click="OpenMenu()"><i class="fa fa-bars"></i></a>
+        </nav>
+        <h1>Take the Quiz</h1>
+    </header>
+     <!--Quiz Section -->
+<h3>Legal Trivia from the HSC 2019</h3>
+     <div id="quiz"></div>
+     <button id="submit">Submit Quiz</button>
+     <div id="results"></div>
+</main>
+<script src="./quiz.js"></script>
+</body>
+</html>

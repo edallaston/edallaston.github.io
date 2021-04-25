@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>Elizabeth Dallaston's Portfolio
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <main>
+    <header>
+        <nav class="topnav" id="portfolioTopnav">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#accomplishments">Accomplishments</a>
+            <a href="#contact">Contact</a>
+            <a href="javascript:void(0);" class="icon" @click="OpenMenu()"><i class="fa fa-bars"></i></a>
+        </nav>
+    </header>
+            <h1>Elizabeth Dallaston</h1>
+     <!--About Section -->
+        <div id="aboutsection">
+        <a href="https://scholar.google.com.au/citations?hl=en&inst=9721106046687621530&pli=1&user=RyJaZ00AAAAJ" target="_blank">
+            <figure><img src="qut headshot.jpg" width="200" height="200" alt="Photo of Elizabeth Dallaston" /></a></figure>
+        <h2 id="about" class="heading uppercase">About</h2>
+            <p>I am a <strong>Senior Research Assistant</strong> and <em>PhD Student</em> at the QUT School of Law.</p>
+            <br>
+            <br>
+        <h3 id="skills">Skills</h3>
+            <h4>Research Skills</h4>
+            <ul class="list">
+                <li>Database searching</li>
+                <li>Report writing</li>
+                <li>Planning</li>
+            </ul>
+            <h4>Interpersonal Skills</h4>
+            <ul class="list">
+                <li>Teamwork</li>
+                <li>Coordination</li>
+                <li>Leadership</li>
+            </ul>            
+            <h4>Technical Skills</h4>
+            <ul class="list">
+                <li>MS Word, Excel, etc</li>
+                <li>Programming</li>
+                <li>Googling for answers</li>
+            </ul>
+    </div>
+     <!--Accomplishments Section -->
+    <div id="accomplishementsection">
+        <h2 id="accomplishments">Accomplishments</h2>
+        <table>
+            <tr>
+              <th scope="col">Publications</th>
+              <th scope="col">Awards</th>
+              <th scope="col">Presentations</th>
+            </tr>
+            <tr>
+                <td><ol>
+                    <li>Elizabeth Dallaston, Stephanie Jowett, and Belinda Bennett, ‘Exceptionalism and the Development of Genomics Law and Policy in Australia’ (2021) Monash University Law Review (accepted 4 March 2021)</li>
+                    <li>Elizabeth Dallaston and Ben Mathews, ‘Unlawful Sexual Relationships: A Comparative Analysis of Criminal Laws Against Persistent Child Sexual Abuse in Queensland and South Australia’ (2021) Adelaide Law Review (accepted 9 March 2021)</li>
+                    <li>Louise Baldwin, Elizabeth Dallaston, Belinda Bennett, Fiona McDonald, and Mary Louise Fleming, ‘Health in All Policies for Rural and Remote Health: A Role for Australian Local Governments?’ (2021) Australian Journal of Public Administration (accepted, in press)</li>
+                    <li>Belinda Bennett, Elizabeth Dallaston, Fiona McDonald, Andrew McGee, Shih-Ning Then and Bethany Allen, ‘Guiding Genomic Research: Australia’s National Statement on Ethical Conduct in Human Research’ (2021) 28 Journal of Law and Medicine 462</li>
+                    <li>Ben Mathews and Elizabeth Dallaston, ‘Female Genital Mutilation/Cutting: An Updated Medico-Legal Analysis after the High Court of Australia’s Landmark Decision in R v A2’ (2020) 213(7) Medical Journal of Australia 309</li>
+                    <li>Stephanie Jowett, Elizabeth Dallaston, and Belinda Bennett, ‘Genomic Research and Data Sharing: Time to Revisit Australian Laws’ (2020) 39(2) University of Queensland Law Journal 341</li>
+                    <li>Ben Mathews and Elizabeth Dallaston, ‘Reform of Civil Statutes of Limitation for Child Sexual Abuse Claims: Seismic Change and Ongoing Challenges’ (2020) 43(2) University of New South Wales Law Journal 386</li>
+                </ol></td>
+                <td>N/a</td>
+                <td>N/a</td>
+            </tr>
+        </table>
+
+        <h3>Codeing Examples</h3>
+        <li><a href="./quiz.html">Take the Quiz!</a>
+    </div>
+     <!--Contact Section -->
+     <div id="contactsection">
+        <h2 id="contact" class="contactform">Contact</h2>
+        <a href="https://www.linkedin.com/in/elizabethdallaston/" target="_blank">LinkedIn</a><br><br>
+        <form>
+            <label for="name">*Name:</label><br>
+            <input type="text" name="name" value="Elizabeth Dallaston" required><br><br>
+            <label for="email">*Email:</label><br>
+            <input type="text" name="email" id="email" required pattern=“[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$”><br><br>
+            <label for="number">*Mobile:</label><br>
+            <input type="number" name="mobile" id="mobile" pattern="[0-9]"><br><br>
+            <label for="textarea">*Leave your message below:</label><br>
+            <textarea id="message" name="message" rows="5" cols="30" required></textarea><br><br>
+            <input type="submit">
+        </form>
+    </div>
+</main>
+<script src="./nav.js"></script>
+</body>
+</html>
